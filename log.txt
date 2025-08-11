@@ -1,0 +1,4 @@
+Teste de Gravação em ArquivoOiTestando inserçãoTeste
+Pulou?
+Mais uma linha 
+Teste encoding: Ã§ Ã§ Ã§ Ã£ Ã£ Ã£

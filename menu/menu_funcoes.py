@@ -1,4 +1,5 @@
 from services.gravar_arquivo import GravarArquivo
+from services.ler_arquivo import LerArquivo
 
 
 class Menu:
@@ -6,6 +7,7 @@ class Menu:
     def __init__(self):
 
         self.gravar_arquivo = GravarArquivo()
+        self.ler_arquivo = LerArquivo()
 
     def cabecalho(self):
 
@@ -36,6 +38,10 @@ class Menu:
             if self.opcao == 1:
                 self.gravar_arquivo.gravar_arquivo()
 
+            if self.opcao == 2:
+                self.ler_arquivo.ler_arquivo()
+
             if self.opcao == 0:
+                print()
                 print("Programa encerrado...")
                 break

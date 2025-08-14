@@ -1,1 +1,1 @@
-Teste
+Essa combinação oferece a menor latência e maior taxa de transferência entre as opções listadas, pois o protocolo NVMe, operando sobre PCI Express, permite acesso muito rápido aos dados armazenados em SSDs modernos.
